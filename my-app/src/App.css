@@ -1580,7 +1580,7 @@
      height: 100%;
  }
  
- body {
+ .body {
      background: var(--color-bg);
      font-family: var(--font-1);
      font-size: var(--text-size);
