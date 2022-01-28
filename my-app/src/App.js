@@ -1,11 +1,15 @@
 import React from 'react';
 import  './App.css';
+import Helmet from 'react-helmet';
+
 import img1 from './images/avatars/user-06.jpg'
 import img2 from './images/avatars/user-02.jpg'
 import img3 from './images/avatars/user-03.jpg'
 import img4 from './images/avatars/user-04.jpg'
 import img5 from './images/avatars/user-05.jpg'
 
+import scrp1 from './JS/main'
+import scrp2 from './JS/plugins'
 
 function App() {
   return (
@@ -423,7 +427,7 @@ function App() {
                   <div className="testimonial-slider__author">
                     <img src={img2} alt="Author image" className="testimonial-slider__avatar" />
                     <cite className="testimonial-slider__cite">
-                      <strong>Tim Cook</strong>
+                      <strong>The Rosero</strong>
                       <span>CEO, Apple</span>
                     </cite>
                   </div>
@@ -437,7 +441,7 @@ function App() {
                   <div className="testimonial-slider__author">
                     <img src={img3} alt="Author image" className="testimonial-slider__avatar" />
                     <cite className="testimonial-slider__cite">
-                      <strong>Sundar Pichai</strong>
+                      <strong>Ismael Cedillo</strong>
                       <span>CEO, Google</span>
                     </cite>
                   </div>
@@ -451,7 +455,7 @@ function App() {
                   <div className="testimonial-slider__author">
                     <img src={img4} alt="Author image" className="testimonial-slider__avatar" />
                     <cite className="testimonial-slider__cite">
-                      <strong>Satya Nadella</strong>
+                      <strong>Marco Iza</strong>
                       <span>CEO, Microsoft</span>
                     </cite>
                   </div>
@@ -465,7 +469,7 @@ function App() {
                   <div className="testimonial-slider__author">
                     <img src={img5} alt="Author image" className="testimonial-slider__avatar" />
                     <cite className="testimonial-slider__cite">
-                      <strong>Jeff Bezos</strong>
+                      <strong>Kevin Chuquimarca</strong>
                       <span>CEO, Amazon</span>
                     </cite>
                   </div>
@@ -545,6 +549,8 @@ function App() {
           </a>
         </div> 
       </footer>
+
+
     </div>
   </div>
   );
