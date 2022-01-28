@@ -1,10 +1,14 @@
-
+import Rellax from "rellax";
+import Swiper, { Manipulation } from "swiper";
+import Jump from "jump.js";
+import basicLightboxMin from "basiclightbox";
 /* ===================================================================
  * Ceevee 2.0.0 - Main JS
  *
  * ------------------------------------------------------------------- */
 
-(function(html) {
+function main() {
+    (function(html) {
 
     "use strict";
     
@@ -204,7 +208,7 @@
 
         folioLinks.forEach(function(link) {
             let modalbox = link.getAttribute('href');
-            let instance = basicLightbox.create(
+            let instance = basicLightboxMin.create(
                 document.querySelector(modalbox),
                 {
                     onShow: function(instance) {
@@ -300,7 +304,7 @@
 
    /* initialize
     * ------------------------------------------------------ */
-    (function ssInit() {
+    (function main() {
 
         ssPreloader();
         try{
@@ -318,3 +322,7 @@
     })();
 
 })(document.documentElement);
+}
+
+
+export default main;
