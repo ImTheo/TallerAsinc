@@ -1,13 +1,12 @@
 import React from 'react';
 import  './App.css';
 
+import av6 from './images/avatars/user-06.jpg'
+
 function App() {
   return (
     <div>
-    <div id="top" className="ss-preload body">
-      <div id="preloader">
-        <div id="loader" />
-      </div>
+    <div id="top" className="ss-preload " className="body">
       <header className="s-header">
         <div className="row s-header__nav-wrap">
           <nav className="s-header__nav">
@@ -59,7 +58,7 @@ function App() {
       <section id="about" className="s-about target-section">
         <div className="row">
           <div className="column large-3 tab-12">
-            <img className="s-about__pic" src="images/avatars/user-06.jpg" alt="" />
+            <img className="s-about__pic" src = {av6} alt="" />
           </div>
           <div className="column large-9 tab-12 s-about__content">
             <h3>About Me</h3>
@@ -278,8 +277,7 @@ function App() {
             </a>
           </div> 
         </div> 
-        /*-- Modal Templates Popup
-        =========================================================== --*/
+
         <div id="modal-01" hidden>
           <div className="modal-popup">
             <img src="images/portfolio/gallery/g-droplet.jpg" alt="" />
@@ -388,8 +386,7 @@ function App() {
           </div>
         </div>  
       </section> 
-      /*-- CTA
-      ================================================== */
+
       <section className="s-cta">
         <div className="row">
           <div className="column">
@@ -397,7 +394,7 @@ function App() {
               Need a great reliable web hosting?
             </h3>
           </div>
-        </div> /*-- end heading-block */
+        </div> 
         <div className="row cta-content">
           <div className="column">
             <p>
@@ -407,10 +404,9 @@ function App() {
             </p>
             <a href="https://www.dreamhost.com/r.cgi?287326" className="btn btn--primary h-full-width">Get Started</a>
           </div>
-        </div> /*-- end cta-content */
-      </section> /*-- end s-cta */
-      /*-- testimonials
-      ================================================== */
+        </div>
+      </section>
+
       <section id="testimonials" className="s-testimonials target-section">
         <div className="s-testimonials__bg" />
         <div className="row s-testimonials__header">
@@ -463,7 +459,7 @@ function App() {
                     Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.
                     Voluptatem dignissimos ut.
                   </p>
-                </div> /*-- end testimonial-slider__slide */
+                </div>
                 <div className="testimonial-slider__slide swiper-slide">
                   <div className="testimonial-slider__author">
                     <img src="images/avatars/user-05.jpg" alt="Author image" className="testimonial-slider__avatar" />
@@ -477,15 +473,14 @@ function App() {
                     quis tortor malesuada pretium. Curabitur vestibulum aliquam leo. Qui sed at corrupti expedita voluptas odit. 
                     Nihil ea quia nesciunt. Ducimus aut sed ipsam.
                   </p>
-                </div> /*-- end testimonial-slider__slide */
-              </div> /*-- end testimonial slider swiper-wrapper */
+                </div>
+              </div> 
               <div className="swiper-pagination" />
-            </div> /*-- end swiper-container */
-          </div> /*-- end column */
-        </div> /*-- end row */
-      </section> /*-- end s-testimonials */
-      /*-- contact
-      ================================================== */
+            </div> 
+          </div>
+        </div> 
+      </section> 
+
       <section id="contact" className="s-contact target-section">
         <div className="row s-contact__header">
           <div className="column large-12">
@@ -496,7 +491,7 @@ function App() {
           <div className="column large-7 medium-12">
             <h4 className="huge-text">
               Have a new project in mind? Let's collaborate and build something awesome. 
-              Let's turn that idea to an even greater product :)
+              Let's turn that idea to an even greater product :
             </h4>
           </div>
           <div className="column large-4 medium-12">
@@ -509,7 +504,7 @@ function App() {
                   <p className="contact-block__content">
                     <a className="mailtoui" href="mailto:sayhello@ceevee.com">sayhello@ceevee.com</a>
                   </p>
-                </div> /*-- end contact-block */
+                </div> sed
               </div>
               <div className="column large-12 medium-6 tab-12">
                 <div className="contact-block">
@@ -519,17 +514,16 @@ function App() {
                   <p className="contact-block__content">
                     <a href="tel:+1975432345">+197 543 2345</a>
                   </p>
-                </div> /*-- end contact-block */
+                </div> 
               </div>
               <div className="column large-12">
                 <a href="mailto:sayhello@ceevee.com" className="mailtoui btn btn--primary h-full-width">Let's Talk</a>
               </div>
-            </div> /*-- end contact-infos */
+            </div> 
           </div>
-        </div> /*-- s-contact__content */
-      </section> /*-- end s-contact */
-      /*-- footer
-      ================================================== */
+        </div> 
+      </section> 
+
       <footer className="s-footer">
         <div className="row">
           <div className="column large-4 medium-6 w-1000-stack s-footer__social-block">
