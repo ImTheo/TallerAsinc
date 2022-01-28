@@ -6,6 +6,7 @@ import img3 from './images/avatars/user-03.jpg'
 import img4 from './images/avatars/user-04.jpg'
 import img5 from './images/avatars/user-05.jpg'
 
+
 function App() {
   return (
     <div>
@@ -490,7 +491,7 @@ function App() {
           <div className="column large-7 medium-12">
             <h4 className="huge-text">
               Have a new project in mind? Let's collaborate and build something awesome. 
-              Let's turn that idea to an even greater product :)
+              Let's turn that idea to an even greater product :
             </h4>
           </div>
           <div className="column large-4 medium-12">
