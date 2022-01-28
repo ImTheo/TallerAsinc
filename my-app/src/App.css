@@ -310,7 +310,7 @@
  
  /* Remove the margin in all browsers. */
  
- body {
+ .body {
      margin: 0;
  }
  
@@ -611,7 +611,7 @@
      box-sizing: inherit;
  }
  
- body {
+ .body {
      font-weight: normal;
      line-height: 1;
      word-wrap: break-word;
@@ -1576,7 +1576,7 @@
      font-size: var(--base-size);
  }
  
- html, body {
+ html, .body {
      height: 100%;
  }
  
