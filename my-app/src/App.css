@@ -309,14 +309,7 @@
   * ------------------------------------------------------------------- */
  
  /* Remove the margin in all browsers. */
-<<<<<<< HEAD
  
-=======
- body{
-    margin: 0;
- }
-
->>>>>>> 509d2c91dfee0bb7171673de7035f4faa6cb9496
  .body {
      margin: 0;
  }
